@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+	<html lang-"en">
+		<head>
+			<meta name="description" content="A simple html web page">
+			<meta name="author" content="Crossie M&C Divine Director">
+			<title>M & C Divine Universal Services</title>
+		</head>
+		<body>
+			<header>
+				<h1>M & C Divine Universal Services</h1>
+				<h3>Export Logistics Solutions made for you</h3>
+				<h4>Reliable and Afforable</h4>
+			</header>
+
+			<main>
+				<p>First paragraph on my M & C Divine web page.</p>
+				<a href="https://facebook.com">Visit facebook.com</a>
+
+
+					<!-- Ordered List with Roman Numerals -->
+        				<section>
+            					<h2>Ordered List with Roman Numerals</h2>
+            					<ol type="I">
+                					<li>First item in Roman numerals</li>
+                					<li>Second item in Roman numerals</li>
+                					<li>Third item in Roman numerals</li>
+                					<li>Fourth item in Roman numerals</li>
+            					</ol>
+        				</section>
+
+        				<!-- External Image from Pexels -->
+        				<section>
+            					<h2>External Image from Pexels</h2>
+            					<figure>
+                					<img src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg" 
+                     						alt="Beautiful landscape photo from Pexels" 
+                     						width="600"
+                     						height="400">
+                					<figcaption>Beautiful landscape photo from Pexels.com</figcaption>
+            					</figure>
+        				</section>
+
+        				<!-- Contacts Table -->
+        				<section>
+            					<h2>Contacts Table</h2>
+            					<table border="1">
+                					<thead>
+                    						<tr>
+                        						<th>Name</th>
+                        						<th>Address</th>
+                        						<th>Mobile</th>
+                        						<th>Email</th>
+                    						</tr>
+                					</thead>
+                					<tbody>
+                    						<tr>
+                        						<td>Johnny Cash</td>
+                        						<td>123 Broad St, Lagos Island</td>
+                        						<td>08023003106</td>
+                        						<td>johnnycash@gmail.com</td>
+                    						</tr>
+                    						<tr>
+                        						<td>Jane Titi Smith</td>
+                        						<td>456 Oak Ave, Funtua</td>
+                        						<td>08035480886</td>
+                        						<td>janetiti@gmail.com</td>
+                    						</tr>
+                    						<tr>
+                        						<td>Darryl Johnson</td>
+                        						<td>789 Pine Rd, Kwazulu</td>
+                        						<td>07145634233</td>
+                        						<td>Darryljohnson@gmail.com</td>
+                    						</tr>
+                    						<tr>
+                        						<td>Alica Tomisin Brown</td>
+                        						<td>321 Elm Blvd, Capetown</td>
+                        						<td>30156427652</td>
+                        						<td>alice@hotmail.com</td>
+                    						</tr>
+                    						<tr>
+                        						<td>Charlie Davison</td>
+                        						<td>654 Maple Ln, Lekki</td>
+                        						<td>08036198153</td>
+                        						<td>charliedavison@aolmail.com</td>
+                    						</tr>
+                					</tbody>
+            					</table>
+        				</section>
+
+        				<!-- Registration Form -->
+        				<section>
+            					<h2>Registration Form</h2>
+            					<form id="registration-form" method="post" action="#">
+                					<fieldset>
+                    						<legend>Personal Information</legend>
+                    
+                    						<div>
+                        						<label for="name">Full Name:</label>
+                        						<input type="text" id="name" name="name" 
+                               							placeholder="Enter your full name" 
+                               							required 
+                               							minlength="3">
+                    						</div>
+                    
+                    						<div>
+                        						<label for="email">Email:</label>
+                        						<input type="email" id="email" name="email" 
+                               							placeholder="Enter your email" 
+                               							required>
+                    						</div>
+                    
+                    						<div>
+                        						<label for="password">Password:</label>
+                        						<input type="password" id="password" name="password" 
+                               							placeholder="Create a password" 
+                               							required 
+                               							minlength="8">
+                    						</div>
+                    
+                    						<div>
+                        						<label for="dob">Date of Birth:</label>
+                        						<input type="date" id="dob" name="dob" 
+                               							required>
+                    						</div>
+                					</fieldset>
+
+                					<fieldset>
+                    						<legend>Additional Information</legend>
+                    
+                    						<div>
+                        						<label for="country">Country:</label>
+                        						<select id="country" name="country" required>
+                            							<option value="" selected disabled>Select your country</option>
+                            							<option value="us">Nigeria</option>
+                            							<option value="ca">Kenya</option>
+                            							<option value="uk">South Africa</option>
+                            							<option value="au">Ghana</option>
+                            							<option value="other">Other</option>
+                        						</select>
+                    						</div>
+                    
+                    						<div>
+                        						<p>Gender:</p>
+                        						<label>
+                            							<input type="radio" name="gender" value="male" required> Male
+                        						</label>
+                        						<label>
+                            							<input type="radio" name="gender" value="female"> Female
+                        						</label>
+                        						<label>
+                            							<input type="radio" name="gender" value="other"> Other
+                        						</label>
+                        						<label>
+                            							<input type="radio" name="gender" value="prefer-not-to-say"> Prefer not to say
+                        						</label>
+                    						</div>
+                    
+                    						<div>
+                        						<p>Interests (select all that apply):</p>
+                        						<label>
+                            							<input type="checkbox" name="interests" value="sports"> Sports
+                        						</label>
+                        						<label>
+                            							<input type="checkbox" name="interests" value="music"> Music
+                        						</label>
+                        						<label>
+                            							<input type="checkbox" name="interests" value="reading"> Reading
+                        						</label>
+                        						<label>
+                            							<input type="checkbox" name="interests" value="travel"> Travel
+                        						</label>
+                    						</div>
+                					</fieldset>
+
+                					<div>
+                    						<button type="submit">Register</button>
+                    						<button type="reset">Reset Form</button>
+                					</div>
+            					</form>
+        				</section>
+			</main>
+		
+			<footer>
+				<p>&copy: 2025. M & C Divine Universal Services. All rights reserved.</p>
+			</footer>
+		</body>
+	</html>		
+		
